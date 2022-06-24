@@ -19,6 +19,7 @@
     </header>
 
     <main>
+
         <section class="contenedor-Cuadrado">
 
             <h2 class="contenedor--title">Calcula el area y perimetro de un cuadrado</h2>
@@ -28,10 +29,87 @@
                     Escribe cuánto mide cada lado del cuadrado
                 </label>
 
-                <input id="Input-Cuadrado" type="number">
+                <div class="contenedor--input">
+                    <input id="Input-Cuadrado" type="number" placeholder="Ingresa cuando mide un lado">
+                </div>
 
-                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
-                <button type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+
+                <div class="contenedor--button">
+                    <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
+                    <button type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+                </div>
+            </form>
+        </section>
+
+
+        <section class="contenedor-Triangulo">
+
+            <h2 class="contenedor--title__Triangulo">Calcula el area y perimetro de un Triangulo</h2>
+
+            <form action="" class="contenedor-formulario--triangulo">
+
+                <label for="Input-triangulo" class="Instrucciones--label">
+                    Escribe cuánto mide cada lado del cuadrado
+                </label>
+
+                <div class="contenedor-input--triangulo">
+                    <input id="Input-triangulo-lado1" type="number" placeholder="Ingresa el lado 1">
+                    <input id="Input-triangulo-lado2" type="number" placeholder="Ingresa el lado 2">
+                    <input id="Input-triangulo-base" type="number" placeholder="Ingresa la base">
+                    <input id="Input-triangulo-altura" type="number" placeholder="Ingresa la altura">
+                </div>
+
+
+                <div class="contenedor--button__Triangulo">
+                    <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perimetro</button>
+                    <button type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
+                </div>
+            </form>
+        </section>
+
+
+        <section class="contenedor-Triangulo">
+
+            <h2 class="contenedor--title__Triangulo">Calcula el area y perimetro de un Triangulo isoseles</h2>
+
+            <form action="" class="contenedor-formulario--triangulo">
+
+                <label for="Input-triangulo" class="Instrucciones--label">
+                    Esta calculadora te regresara su altura, el area y su perimetro
+                </label>
+
+                <div class="contenedor-input--triangulo">
+                    <input id="Input-trianguloIso-lado" type="number" placeholder="Ingresa el lado">
+                    <input id="Input-trianguloIso-base" type="number" placeholder="Ingresa la base">
+                </div>
+
+
+                <div class="contenedor--button__Triangulo">
+                    <button type="button" onclick="calcularTrianguloIso()">Calcular</button>
+                </div>
+            </form>
+        </section>
+
+
+        
+        <section class="contenedor-Circulo">
+
+            <h2 class="contenedor--title__Circulo">Calcula el area y la circunferencia de un circulo</h2>
+
+            <form action="" class="contenedor-formulario--2">
+                <label for="Input-Circulo">
+                    Escribe cuánto mide su radio
+                </label>
+                
+                <div class="contenedor--input-Circulo">
+                    <input id="Input-Circulo-radio" type="number" placeholder="Ingresa el radio"> 
+                </div>
+
+
+                <div class="contenedor--button__Circulo">
+                    <button type="button" onclick="calcularCircunferenciaCirculo()">Calcular la circunferencia</button>
+                    <button type="button" onclick="calcularAreaCirculo()">Calcular el área</button>
+                </div>
             </form>
         </section>
     </main>
