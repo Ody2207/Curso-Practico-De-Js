@@ -1,0 +1,12 @@
+Las 3 herrameintas que usaremos para trabajar en este nuevo taller seran: Media, Mediana y Moda
+
+Media
+Es el promedio de todos los resultados de una lista con cierta cantidad de numeros, esta herramienta no nos 
+sirve cuando en nuestra lista tenemos números exesivamente grandes que rompan la regla
+
+Mediana 
+Para utilizar la mediana hay que ordenar nuestra lista de mayor a menor y vamos a tomar los números que
+esten en medio, si son dos se hara un promedio de los dos y así se sacara la mediana.
+
+Moda 
+La moda son los numero u objetos que más se repitan en una lista.
