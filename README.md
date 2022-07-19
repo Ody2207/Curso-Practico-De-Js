@@ -19,7 +19,7 @@
 - Tercer paso: crear funciones 
 - Cuerto paso: Integrar Js con HTML
 
-Reto del Taller #3
+## Reto del Taller #3
 - Ordenar la lista
 - Extraer el primer y el ultimo número de la lista
 - Restar los dos numeros
