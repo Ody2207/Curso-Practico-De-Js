@@ -1,18 +1,18 @@
-#Taller #1 figuras geometricas
+# Taller #1 figuras geometricas
 
 - Primer paso: Definir las formas 
 - Segundo paso:  Implementar formulas en Js
 - Tercer paso: crear funciones 
 - Cuerto paso: Integrar Js con HTML
 
-#Taller #2 Porcentajes y descuentos
+# Taller #2 Porcentajes y descuentos
 
 - Primer paso: Definir las formas 
 - Segundo paso:  Implementar formulas en Js
 - Tercer paso: crear funciones 
 - Cuerto paso: Integrar Js con HTML
 
-#Taller #3 Promedio, mediana y moda
+# Taller #3 Promedio, mediana y moda
 
 - Primer paso: Definir las formas 
 - Segundo paso:  Implementar formulas en Js
